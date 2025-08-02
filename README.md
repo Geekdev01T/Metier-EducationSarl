@@ -1,2 +1,2 @@
 # Metier-EducationSarl
-Website dor Metiers &amp; Education Sarl
+Website for Metiers &amp; Education Sarl
