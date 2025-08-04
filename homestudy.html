@@ -131,23 +131,23 @@
             <form id="homestudy-form" class="booking-form">
                 <div class="form-group">
                     <label for="student-name">Nom de l'élève</label>
-                    <input type="text" id="student-name" name="student-name" required>
+                    <input type="text" id="student-name" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="parent-name">Nom du parent (si mineur)</label>
-                    <input type="text" id="parent-name" name="parent-name">
+                    <input type="text" id="parent-name" name="parent">
                 </div>
                 <div class="form-group">
                     <label for="student-email">Email</label>
-                    <input type="email" id="student-email" name="student-email" required>
+                    <input type="email" id="student-email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="student-phone">Téléphone</label>
-                    <input type="tel" id="student-phone" name="student-phone" required>
+                    <input type="tel" id="student-phone" name="phone" required>
                 </div>
                 <div class="form-group">
                     <label for="subject">Matière</label>
-                    <select id="subject" name="subject" required>
+                    <select id="subject" name="matiere" required>
                         <option value="">Sélectionnez une matière</option>
                         <option value="maths">Mathématiques</option>
                         <option value="physics">Physique-Chimie</option>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="form-group">
                     <label for="level">Niveau</label>
-                    <select id="level" name="level" required>
+                    <select id="level" name="niveau" required>
                         <option value="">Sélectionnez un niveau</option>
                         <option value="primary">Primaire</option>
                         <option value="middle">Collège</option>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="form-group">
                     <label for="time">Heure souhaitée</label>
-                    <input type="time" id="time" name="time" required>
+                    <input type="time" id="time" name="horaire" required>
                 </div>
                 <div class="form-group">
                     <label for="address">Adresse pour le cours</label>
@@ -284,6 +284,6 @@
         })();
     </script>
     <script src="js/script.js"></script>
-    <script src="js/email.js"></script>
+    <script src="js/email1.js"></script>
 </body>
 </html>
